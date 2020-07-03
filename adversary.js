@@ -95,7 +95,7 @@ var adversaries = [
   'Winnti Group',
   'WIRTE',
 ]
-function adversary() {
+function newAdversary() {
   var randomNumber = Math.floor(Math.random() * (adversaries.length))
   document.getElementById('adversaryDisplay').innerHTML = adversaries[randomNumber];
 }
