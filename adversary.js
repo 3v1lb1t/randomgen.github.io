@@ -96,6 +96,6 @@ var adversaries = [
   'WIRTE',
 ]
 function newAdversary() {
-  var randomNumber = Math.floor(Math.random() * (adversaries.length))
+  var randomNumber = Math.floor(Math.random() * (adversaries.length));
   document.getElementById('adversaryDisplay').innerHTML = adversaries[randomNumber];
 }
